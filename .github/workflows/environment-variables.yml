@@ -1,5 +1,5 @@
 name: Envrionment Variables
-os: [pull_request]
+on: [pull_request]
 
 env:
   DAY_OF_WEEK: Monday
