@@ -1,11 +1,11 @@
 name: Simple Example
 
-on: [pull_request]
+on: [push,pull_request]
 
 jobs:
    checkout:
-      run-on: ubuntu-latest
+      runs-on: ubuntu-latest
 
       steps:
         - name: Checkout Repository
-          uses: action/checkout@v4
+          uses: actions/checkout@v4
